@@ -1,0 +1,70 @@
+/* 公用字体 */
+body{font-family:HiraginoSansGB-W3,"微软雅黑","Microsoft Yahei","宋体","Arial Narrow",HELVETICA !important;}
+/* 布局 flex */
+.dis-flex{
+  display:flex;
+}
+/* 纵向排列 */
+.direction-column{
+  flex-direction: column;
+}
+/* 居中对齐 */
+.space-between{
+  justify-content:space-between;
+}
+/* 两端对齐 */
+.space-enter{
+  justify-content:center;
+}
+/* 垂直集中 */
+.align-center{
+  align-items: center;
+}
+/* 布局 float */
+.float-left{
+  float:left;
+}
+.float-right{
+  float:right;
+  position: relative;
+} 
+.clearfix{
+  overflow:hidden;
+}
+/* 盒子模型 */
+.border-box{
+  box-sizing:border-box;
+}
+/* 北京cover */
+.bg-cover{
+  background-size: cover;
+}
+
+
+
+
+/* layout */
+.m0{
+  margin:0 !important;
+}
+.mb20{
+  margin-bottom:20px !important;
+}
+/* 改写全局 */
+.icon_c_warning{
+  color:#f7ba2a;
+  font-size:36px;
+  margin-right:12px;
+}
+.businessManage-content{
+  background-color: #fff;
+  padding: 15px;
+  margin: 15px;
+}
+.businessManage-content .el-button,
+.businessManage-content .el-table .cell,
+.businessManage-content .el-input__inner,
+.el-select-dropdown__item span {
+  font-size:12px !important;
+}
+
