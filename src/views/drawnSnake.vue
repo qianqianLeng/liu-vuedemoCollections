@@ -10,7 +10,7 @@
 export default {
     data() {
         return {
-          canvasWidth:80,
+          canvasWidth:100,
           canvasHeight:80,
           ctx:null,
           headX:0,
