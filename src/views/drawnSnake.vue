@@ -22,7 +22,6 @@ export default {
           foodX:null,
           foodY:null,
 
-            
         };
     },
     methods: {
