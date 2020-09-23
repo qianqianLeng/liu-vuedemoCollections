@@ -3,7 +3,7 @@
     <canvas id="myCanvas" :width="canvasWidth" :height="canvasHeight">
 
     </canvas>
-    
+
   </div>
 </template>
 <script>
@@ -22,7 +22,7 @@ export default {
           foodX:null,
           foodY:null,
 
-            
+
         };
     },
     methods: {
@@ -54,9 +54,9 @@ export default {
           this.headY += this.size;
         }else if(this.direction == 'left'){
           this.headX -= this.size;
-        }else if(this.direction == 'up'){ 
-          this.headY -= this.size;  
-        }  
+        }else if(this.direction == 'up'){
+          this.headY -= this.size;
+        }
         this.ctx.fillStyle = '#ff0000';
         let isImpact = false;//没有撞上自己
         console.log('现在蛇身体',this.snakeBodyArr,this.foodX,this,this.foodY)
@@ -132,7 +132,7 @@ export default {
       rnd(n,m){ //包含0，不包含1
         return parseInt(Math.random()*(m-n)+n);
       },
-      
+
     },
     created(){
     },
@@ -147,8 +147,6 @@ export default {
 
 
 
-</script>
-</html>
 </script>
 <style>
 * {
