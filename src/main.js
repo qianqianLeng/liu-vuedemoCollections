@@ -8,6 +8,7 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import store from './store'
 import "../src/assets/fonts/iconfont.css";
+import "../static/css/common.css";
 // const routerPush = Router.prototype.push
 // Router.prototype.push = function push(location) {
 //   return routerPush.call(this, location).catch(error=> error)

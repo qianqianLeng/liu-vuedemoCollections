@@ -1,9 +1,7 @@
 <template>
   <div>
     <canvas id="myCanvas" :width="canvasWidth" :height="canvasHeight">
-
     </canvas>
-    
   </div>
 </template>
 <script>
