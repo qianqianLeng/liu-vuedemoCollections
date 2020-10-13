@@ -3,7 +3,10 @@ import InoBounce from '@/views/inobounce.vue'
 
 import IosMescrollBottom from '@/views/iosMescrollBottom.vue'
 import IosMescrollBottomSimple from '@/views/iosMescrollBottomSimple.vue'
+
 import drawnSnake from '@/views/drawnSnake.vue'
+
+
 const routes = [
   {
     component: Nobounce1Simple,

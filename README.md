@@ -1,6 +1,7 @@
 # liuli-vue
 
 > A Vue.js project
+  常用demo实例
 
 ## Build Setup
 
